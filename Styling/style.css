@@ -1,0 +1,19 @@
+h1 {
+    font-family: sans-serif;
+    background-color: black;
+    text-align: left;
+}
+h2 {
+    font-family: sans-serif;
+    background-color: blueviolet;
+    font-style: italic;
+    color: aliceblue;
+    text-align: center;
+}
+h3 {
+    font-family: sans-serif;
+    background-color: aqua;
+    text-decoration: underline;
+    color: black;
+    text-align: right;
+}
