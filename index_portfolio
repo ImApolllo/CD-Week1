@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Jackson Geiger</h1>
+    <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Profile Pic" width="200px" height="200px">
+        <div>
+            <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github" width="25px" height="25px"><a href="https://github.com/ImApolllo">github</a>
+            <img src="https://w7.pngwing.com/pngs/887/616/png-transparent-linkedin-icon-linkedin-text-rectangle-logo.png" alt="Linkedin" width="25px" height="25px"><a href="https://www.linkedin.com/in/jackson-geiger-7a62b4110/">Linkedin</a>
+            <img src="https://pnggrid.com/wp-content/uploads/2021/12/Email-Icon-Png-Transparent.png" alt="email" width="25px" height="25px"><a href="">jackson.v.geiger@gmail.com</a>
+        </div>
+    </div>
+    <div>
+        <h3>Technologies</h3>
+        <table>
+            <tr>
+                <th>Front-End</th>
+                <th>Python</th>
+                <th>JavaScript</th>
+                <th>Database</th>
+                <th>Concepts</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+                <td>3</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h3>Contact Me</h3>
+        <label>Name: </label><input type="text" name="name">
+        <label>Email: </label><input type="text" name="email">
+        <div>
+            <label>Message: </label><textarea name="comment" cols="55" rows="5"></textarea>
+        </div>
+        <input type="submit" value="Send Message!"> 
+    </div>
+</body>
+</html>
