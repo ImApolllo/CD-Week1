@@ -1,0 +1,35 @@
+.container {
+    background-color: blanchedalmond;
+    padding: 20px;
+}
+.header {
+    display: flexbox;
+    justify-content: center;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+}
+.top {
+    height: 200px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.mid {
+    height: 200px;
+    background-color: darkseagreen;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bot {
+    height: 200px;
+    background-color: coral;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
