@@ -1,0 +1,24 @@
+.nav {
+    background-color: dimgrey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.nav-title {
+    color: aliceblue;
+}
+.nav-links {
+    color: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 600px;
+}
+li {
+    margin: 2px 5px 2px 5px;
+}
+.btn {
+    color: aliceblue;
+    background-color: cornflowerblue;
+    box-shadow: 2px 2px black;
+    border-color: black;
+}
