@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: lightgray;
+}
+.container {
+    margin: 0 auto;
+    width: 1000px;
+}
+.header {
+    background-color: #000;
+    height: 40px;
+    padding: 10px;
+    width: auto;
+}
+.header h1 {
+    color: #fff;
+}
+.feed-space {
+    height: 40px;
+    padding: 10px;
+}
+.feed-space h1 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.main-body {
+    display: flex;
+}
+.col-1 {
+    flex: 1;
+}
+.col-3 {
+    flex: 3;
+}
+.avatar {
+    padding: 10px;
+    margin-right: 20px;
+    border: 2px solid #000;
+    height: 300px;
+    width: auto;
+    align-items: center;
+    background-color: #fff;
+}
+.avatar h1, h3 {
+    width: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+.user-box {
+    padding: 10px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    height: 150px;
+    background-color: #fff;
+}
+.user-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btnlikes {
+    padding: 5px 20px 5px 20px;
+    background-color: darkcyan;
+    color: #fff;
+    box-shadow: 2px 2px black;
+}
