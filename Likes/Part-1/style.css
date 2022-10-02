@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 400px;
+}
+.user-container {
+    border: 2px solid black;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.btnlikes {
+    padding: 5px 20px 5px 20px;
+    background-color: darkcyan;
+    color: #fff;
+    box-shadow: 2px 2px black;
+}
+.body {
+    padding: 10px;
+    margin: 0 auto;
+}
