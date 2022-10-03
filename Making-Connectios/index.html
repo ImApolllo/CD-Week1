@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Profile</h1>
+            <h3>Home</h3>
+            <h3>My Profile</h3>
+            <h3>Find Connections</h3>
+            <button onclick="" class="btnsign">Sign Out</button>
+        </div>
+        <div class="main-body">
+            <div class="col-2">
+                <div class="profile">
+                    <div class="profile-banner">
+                        <img src="arry-s.jpg" alt="arr-s" class="avatar-pic">
+                        <h2 class="profile-info name">Jane Doe</h2>
+                        <h3 class="profile-info"><img src="map-marker.png" alt="map-marker" class="map"> Seatle</h3>
+                        <p class="profile-info">
+                            Developer | Engineer | Problem Solver <br>
+                            Master of the shadows and the Internet!
+                        </p>
+                        <h4 class="profile-info" onclick="changeName()"><img src="gear.png" alt="gear" class="gear">edit profile</h4>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="edu-header">
+                        <h2>Education</h2>
+                    </div>
+                    <div class="edu-footer">
+                        <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                        <h4>Dec 2019 - Mar 2020</h4>
+                        <p>Triple Black Belt in Python, Mern, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-1">
+                <div class="con-req">
+                    <div class="con-req-header">
+                        <label class="cons" id="connect">2</label>
+                        <h3>Connection Requests</h3>
+                    </div>
+                    <div class="con-req-footer">
+                        <div class="user" id="req-1">
+                            <img src="adrien-s.jpg" alt="adrien s" class="user-pic">
+                            <h3 class="user-name">Adrien S</h3>
+                            <img src="accept-circle.png" alt="accept-circle" class="accept-circle" onclick='accept("#req-1")'>
+                            <img src="close-circle.png" alt="close-circle" class="close-circle" onclick='decline("#req-1")'>
+                        </div>
+                        <div class="user" id="req-2">
+                            <img src="alayne-s.jpg" alt="alayne-s s" class="user-pic">
+                            <h3 class="user-name">Alayne S</h3>
+                            <img src="accept-circle.png" alt="accept-circle" class="accept-circle" onclick='accept("#req-2")'>
+                            <img src="close-circle.png" alt="close-circle" class="close-circle" onclick='decline("#req-2")'>
+                        </div>
+                    </div>
+                </div>
+                <div class="your-con">
+                    <div class="your-req-header">
+                        <label class="cons" id="request">418</label>
+                        <h3>Your Connections</h3>
+                    </div>
+                    <div class="your-req-footer">
+                        <div class="user-con">
+                            <img src="phil-s.jpg" alt="phil-s s" class="user-pic">
+                            <h3 class="user-name">Phil S</h3>
+                        </div>
+                        <div class="user-con">
+                            <img src="anne-s.jpg" alt="anne s" class="user-pic">
+                            <h3 class="user-name">Anne S</h3>
+                        </div>
+                        <div class="user-con">
+                            <img src="todd-s.jpg" alt="todd s" class="user-pic">
+                            <h3 class="user-name">Todd S</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

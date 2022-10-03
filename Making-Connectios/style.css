@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(138, 137, 137);
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    background-color: rgb(65, 65, 65);
+    display: flex;
+    padding: 10px;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.header h1 {
+    margin-right: 250px;
+}
+.header h1, .header h3 {
+    color: #fff;
+}
+.btnsign {
+    padding: 5px 10px 5px 10px;
+    background-color: cadetblue;
+    box-shadow: 2px 2px #000;
+}
+.main-body {
+    display: flex;
+}
+.col-2 {
+    flex: 2;
+    margin-right: 20px;
+}
+.col-1 {
+    flex: 1;
+}
+.profile {
+    border: 2px solid black;
+    height: 325px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.profile-banner {
+    background-color: rgb(34, 196, 196);
+    height: 90px;
+}
+.avatar-pic {
+    border-radius: 50%;
+    background-color: aliceblue;
+    padding: 4px;
+    margin: 30px 0px 0px 30px;
+}
+.profile-info {
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+.education {
+    border: 2px solid black;
+    height: 150px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.edu-header {
+    background-color: rgb(65, 65, 65);
+    height: 30px;
+    padding: 10px 10px 10px 30px;
+}
+.con-req-header, .your-req-header {
+    background-color: rgb(65, 65, 65);
+    height: 30px;
+    padding: 10px 10px 10px 30px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.edu-header h2, .con-req-header h3, .your-req-header h3 {
+    color: #fff;
+}
+.con-req-header h3, .your-req-header h3 {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.cons {
+    display: block;
+    height: auto;
+    background-color: rgb(173, 167, 167);
+    border-radius: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+.edu-footer {
+    padding: 10px 30px 10px 30px;
+}
+.edu-footer * {
+    margin-bottom: 10px;
+}
+.con-req {
+    border: 2px solid black;
+    height: 220px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.your-con {
+    border: 2px solid black;
+    height: 300px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.con-req-footer, .your-req-footer {
+    padding: 10px;
+}
+.user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user .user-pic {
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    border: 2px solid black;
+}
+.user .user-name {
+    margin-right: 50px;
+}
+.user .accept-circle, .user .close-circle {
+    height: 32px;
+    width: 32px;
+}
+.user-con {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user-con .user-pic {
+    height: 64px;
+    width: 64px;
+    border-radius: 100%;
+    border: 2px solid black;
+    margin-right: 10px;
+}
+.map {
+    width: 10px; 
+    height: 15px;
+}
+.gear {
+    width: 15px; 
+    height: 15px;
+}
